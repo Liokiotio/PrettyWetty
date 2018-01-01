@@ -29,6 +29,26 @@ p	{
 body {
   background-color: grey;
 }
+
+/*Home*/
+
+table {
+  width: 100%;
+  text-align: center;
+  height: 600px;
+
+}
+
+td {
+  width: 50%;
+}
+
+/*
+.homecolumn {
+  float: left;
+  width: 50%;
+}
+
  /*Heroes*/
 
 .column {
