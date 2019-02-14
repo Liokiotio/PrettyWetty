@@ -3,16 +3,58 @@
 <head>
 	<title>Magic World</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="gamesgallery.css">
 </head>
+
 <body>
-	<nav>
+	<div class="nav">
 		<a href="home.html">Home</a>
-	</nav>
+		<a href="about.html">About the Magic World</a>
+		<a href="heroes.html">Main Characters</a>
+		<a href="books.html">Books</a>
+		<a href="films.html">Films</a>
+		<a href="games.html" class="currentpage">Games</a>
+		<a href="live.html">If real life</a>
+		<a href="hat.html">The Hat</a>
+	</div>
 
 	<br>
 	<span id="Gamesslist"><h3>Games</h3></span>
 	<ul>
 		<li><a href="#GamePhilstone">Philosophic stone</a></li>
 	</ul>
+	<div class="gamestext">
+		<span id="GamePhilstone"><h3>Philosophic</h3></span> <p>6000 year</p>
+	</div>
+
+	<div class="gamesshow">
+		<div class="philslide">
+			<img src="1.jpg">
+		</div>
+
+		<div class="philslide">
+			<img src="2.jpg">
+		</div>
+
+		<div class="philslide">
+			<img src="3.jpg">
+		</div>
+
+		<div class="gamesrow">
+			<div class="philcol">
+				<img src="1.jpg" class="demo cursor"  onclick="currentphilslide(1)">
+			</div>
+			<div class="philcol">
+				<img src="2.jpg" class="demo cursor"  onclick="currentphilslide(2)">
+			</div>
+			<div class="philcol">
+				<img src="3.jpg" class="demo cursor"  onclick="currentphilslide(3)">
+			</div>
+		</div>
+
+	</div>
+	<a href="#Gamesslist">To the list of the games</a>
+
+	<script src="gamesgallery.js"></script>
 </body>
 </html>

@@ -3,11 +3,19 @@
 <head>
 	<title>Magic World</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="heroesgallery.css">
 </head>
 <body>
-	<nav>
+	<div class="nav">
 		<a href="home.html">Home</a>
-	</nav>
+		<a href="about.html">About the Magic World</a>
+		<a href="heroes.html" class="currentpage">Main Characters</a>
+		<a href="books.html">Books</a>
+		<a href="films.html">Films</a>
+		<a href="games.html">Games</a>
+		<a href="live.html">If real life</a>
+		<a href="hat.html">The Hat</a>
+	</div>
 	<br>
 	<span id="Characterslist"><h3>Main Characters</h3></span>
 	<ul>
@@ -33,14 +41,14 @@
 				</div> 
 			</div>
 		</div>
-		
-			<div class="column middle">
+
+		<div class="column middle">
 				<span id="Hermione"><h3>Hermione Granger</h3></span>
 				<br>
 				<p>In the books, Hermione is described as having bushy brown hair and brown eyes. Her front teeth, already very large, grow uncontrollably in Goblet of Fire after she is affected by a spell cast by Draco. Madam Pomfrey attends to her in the hospital wing and, at her request, shrinks the teeth down to a normal size for her mouth.</p>
-			</div>
+		</div>
 
-			<div class="column right">
+		<div class="column right">
 				<div id="aboutHermione">
 					
 					
@@ -59,45 +67,12 @@
 					<p>Hermione is portrayed during the whole series as an exceptionally talented young witch. Rowling has stated that Hermione is a "borderline genius."[42] She received ten O.W.L.s, which were nine Outstandings and one Exceeds Expectations. She is the best student in Harry's year and is repeatedly the first student to master any spell or charm introduced in classes and even from more advanced years, as evidenced when she is able to conjure a Protean Charm on the D.A.'s fake Galleon coins, which is actually a N.E.W.T. level charm.[43] She is also the first one to be able to cast non-verbal spells.[44] Hermione is a competent duellist - Rowling has stated that while during the first three books Hermione would have beaten Harry in a magical duel, by the fourth book Harry had become so good at Defence Against the Dark Arts that he would have defeated Hermione.[45] Hermione did not tend to do as well in subjects that were not learned through books or formal training, as broom flying did not come as naturally to her in her first year as it did to Harry,[46] and she showed no affinity for Divination, which she dropped from her third year studies.[47][48] She was also not good at Wizard's Chess, as it was the only thing at which she ever lost.</p>
 					<br>
 					<p>Hermione's Patronus is an otter, Rowling's favourite animal. In the Deathly Hallows book, while they enter the Ministry Of Magic under disguise, Hermione impersonates Mafalda Hopkirk. It is also stated that conjuring a Patronus is the only thing she ever has trouble with.[50] Her wand is made of vine wood and dragon heartstring core; vine is the wood ascribed to Hermione's fictional birth month (September) on the Celtic calendar.</p>
-					<br>
-					
 				</div>
-			</div>
-			</div>
-			<br>
-			<br>
-			<a href="#Characterslist">To the characters list</a>
+		</div>
+	</div>
+	<br>
+	<br>
+	<a href="#Characterslist">To the characters list</a>
+	<script src="heroesgallery.js"></script>
 
-
-
-	<script type="text/javascript">
-					var slideIndex = 1;
-					showSlides(slideIndex);
-
-					// Next/previous controls
-					function plusSlides(n) {
-					  showSlides(slideIndex += n);
-					}
-
-					// Thumbnail image controls
-					function currentSlide(n) {
-					  showSlides(slideIndex = n);
-					}
-
-					function showSlides(n) {
-					  var i;
-					  var slides = document.getElementsByClassName("mySlides");
-					  var dots = document.getElementsByClassName("dot");
-					  if (n > slides.length) {slideIndex = 1} 
-					  if (n < 1) {slideIndex = slides.length}
-					  for (i = 0; i < slides.length; i++) {
-					      slides[i].style.display = "none"; 
-					  }
-					  for (i = 0; i < dots.length; i++) {
-					      dots[i].className = dots[i].className.replace(" active", "");
-					  }
-					  slides[slideIndex-1].style.display = "block"; 
-					  dots[slideIndex-1].className += " active";
-					}
-				</script>
 </html>

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.philslide {
+	 display: none;
+	 text-align: center;
+	}
+
+.philslide img {
+	max-height: 500px;
+	max-width: 100%;
+
+}
+
+.gamesrow img {
+	max-height: 100px;
+	max-width: 100%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	
+}
+
+.philcol {
+background-color: rgba(0, 0, 255, 0.4);
+	float: left;
+	width: 33%;
+}
