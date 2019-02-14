@@ -1,0 +1,31 @@
+.menu {
+	animation-name: anim;
+	animation-duration: 4s;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes anim {
+	0% {opacity: 0}
+	10% {opacity: .2}
+	20% {opacity: .4}
+	30% {opacity: .6}
+	40% {opacity: .8}
+	50% {opacity: 1}
+	60% {opacity: .8}
+	70% {opacity: .6}
+	80% {opacity: .4}
+	90% {opacity: .2}
+	100% {opacity: 0}
+}
+
+.a { 
+	animation-delay: 1s;
+}
+
+.b{ 
+	animation-delay: 2s;
+}
+
+.c{ 
+	animation-delay: 3s;
+}

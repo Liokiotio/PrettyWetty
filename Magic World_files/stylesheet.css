@@ -29,7 +29,7 @@ p	{
 body {
   background-color: grey;
 }
- /*Heroes*/
+
 
 .column {
   float: left;
@@ -49,56 +49,28 @@ body {
 	width: 50%;
 }
 
-/*Films*/
-
 .filmscolumn {
-  float: left;
+   float: left;
   overflow: scroll;
   height: 500px;
   width: 50%;
 }
 
-/*live*/
-
 .liverow {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  }
-
-.livecolumn {
-
-  max-width: 30%;
-  padding: 0 4px;
 }
 
-.livecolumn img {
-  max-width: 100%;
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/*
-.liverow {
-  background-color: black;
-
-  padding: 0 4px;
-} 
-
 .livecolumn {
-
-  flex: 25%;
-  max-width: 25%;
+  width: 25%;
   padding: 0 4px;
 }
 
 .livecolumn img {
   margin-top: 8px;
   width: 100%;
-  vertical-align: middle;
 }
-*/
-/*about*/
 
 .aboutcolumn {
   float: left;
@@ -115,8 +87,6 @@ body {
 .aboutcontent img {
   width: 100%;
 }
-
-/*end about*/
 
 @media screen and (max-width: 800px) {
     .livecolumn {
