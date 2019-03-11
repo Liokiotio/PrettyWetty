@@ -22,6 +22,11 @@ background-color: #777;
 
 /*End of nav bar*/
 
+body {
+  background-image: url('background.jpg');
+  background-size: 100%;
+}
+
 p	{
   color: red;
 }
