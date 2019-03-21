@@ -1,0 +1,28 @@
+.allcards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	margin: 20px 10px;
+
+}
+
+.card {
+	flex: 0 0 300px;
+	margin: 20px 5px;
+	background-color: white;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding: 15px;
+}
+
+img {
+	width: 85%;
+}
+
+p {
+	min-width: 200px;
+}
